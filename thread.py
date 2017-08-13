@@ -1,8 +1,7 @@
+# http://123.206.31.85/challenges#%E8%BE%93%E5%85%A5%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8Bflag
+
 
 # coding: utf-8
-
-# In[1]:
-
 
 import requests
 url='http://120.24.86.145:8002/baopo/?yes'
@@ -22,7 +21,6 @@ content.encoding='utf-8'
 patch=content.text
 
 
-# In[ ]:
 
 from Queue import Queue
 from threading import Thread
@@ -58,32 +56,9 @@ for x in value:
 q.join()
 
 
-# In[ ]:
 
 
 
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
 
 
 
